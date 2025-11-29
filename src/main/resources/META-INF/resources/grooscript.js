@@ -1779,7 +1779,6 @@
 
     String.prototype.endsWith = function(value) {
         return this.substring(this.length - value.length) === value;
-        // return this.indexOf(value) > -1 && this.indexOf(value) == (this.length - value.length);
     };
 
     String.prototype.count = function(value) {

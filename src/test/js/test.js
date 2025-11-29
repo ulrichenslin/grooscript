@@ -225,7 +225,7 @@ describe('string functions', function() {
     it('endsWith', function () {
         assert.equal("init".endsWith("Click"), false);
         assert.equal("init".endsWith("init"), true);
-        assert.equal("/a/path/".endsWith("/"), true);c
+        assert.equal("/a/path/".endsWith("/"), true);
     });
 });
 
